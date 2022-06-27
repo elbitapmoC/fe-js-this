@@ -30,3 +30,19 @@
 //   console.log(this);
 // }
 
+// Binding THIS
+// function logThis(x,y){
+//   console.log(this);
+//   console.log(x,y);
+// }
+// const obj = {
+//   num: 10,
+// }
+// logThis(); //undefined
+// const boundLogThis = logThis.bind(obj); // binding the function to the obj.
+// boundLogThis(10,20);
+
+// 1st
+// const boundLogThis = logThis.bind(obj, 75); // binding the function to the obj.
+// 2nd
+// boundLogThis(220);
