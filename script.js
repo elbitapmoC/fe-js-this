@@ -46,3 +46,23 @@
 // const boundLogThis = logThis.bind(obj, 75); // binding the function to the obj.
 // 2nd
 // boundLogThis(220);
+
+// THIS in Arrays
+// function logThis(){
+//   console.log(this);
+// }
+
+// [1,2,3].forEach(num=>{
+//   console.log(this);
+// console.log(num);
+// })
+
+// [1,2,3].forEach(function(num){
+//   console.log(this); //undefined
+//   console.log(num);
+// })
+
+// [1,2,3].forEach(function(num){
+//   console.log(this); //Object, referring to object below.
+//   console.log(num);
+// }, {num: 10})
