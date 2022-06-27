@@ -66,3 +66,19 @@
 //   console.log(this); //Object, referring to object below.
 //   console.log(num);
 // }, {num: 10})
+
+// THIS in Classses
+// class Person {
+//   constructor(name){
+//     // console.log(this); // Empty Obj
+//     this.name = name;
+//     // console.log(this); // Obj w/ {name}
+//   }
+//   speak(){
+//     console.log(`Hello I'm ${this.name}`);
+//   }
+// }
+// const reef = new Person('Ariel');
+// const coral = new Person('Creetch');
+// reef.speak();
+// coral.speak();
