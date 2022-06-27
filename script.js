@@ -8,3 +8,9 @@
 // console.log(this);
 // const btn = document.querySelector('button');
 // btn.addEventListener('click', logThis);
+
+// THIS in functions
+// function logThis(){
+//   console.log(this);
+// }
+// logThis(); //undefined
