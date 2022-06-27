@@ -14,3 +14,13 @@
 //   console.log(this);
 // }
 // logThis(); //undefined
+
+// THIS in Objects
+// function logThis(){
+//   console.log(this);
+// }
+// const obj = {
+//   num: 20,
+//   logThis
+// }
+// obj.logThis(); // Object
