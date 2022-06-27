@@ -24,3 +24,9 @@
 //   logThis
 // }
 // obj.logThis(); // Object
+
+// THIS in Event Listeners
+// function logThis(){
+//   console.log(this);
+// }
+
